@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Button-counter-nicholson</string>
+    <string name="number">Count:</string>
+    <string name="increment">INCREMENT</string>
+    <string name="decrement">DECREMENT</string>
+    <string name="reset">RESET</string>
 </resources>
