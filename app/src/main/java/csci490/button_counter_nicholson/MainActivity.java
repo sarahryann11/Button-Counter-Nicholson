@@ -89,6 +89,12 @@ public class MainActivity extends AppCompatActivity implements OnClickListener{
 
         counter = savedInstanceState.getInt("number");
         num.setText(Integer.toString(counter));
+        if (counter < 0)
+            num.setTextColor(Color.RED);
+        else if (counter > 0)
+            num.setTextColor(Color.GREEN);
+        else
+            num.setTextColor(Color.BLACK);
 
 
     }
